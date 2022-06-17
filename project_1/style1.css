@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    background-color: #F3F5F6;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+}
+ul.menu1{
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    gap:20px;
+}
+ul.menu2{
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    gap:20px;
+}
+span.logo{
+    font-weight: 700;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text_block{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    gap: 16px;
+}
+.numbers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.block_num{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.textup{
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.textname{
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.head{
+    color: #6F1DF4;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+.diffenition{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+}
+.menu_bars{
+    display: none;
+}
+.textdef{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+}
+@media screen and (max-width:1439px) and (min-width:768px){
+    .menu_bars{
+        display: block;
+    }
+    ul.menu1{
+        display: none;
+    }
+    ul.menu2{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        margin-left:100px;
+        margin-right: 100px;
+    }
+    main{
+        flex-direction: column;
+    }
+    picture.pic1{
+        align-self: center;
+        order: 1;
+    }
+    .text_block{
+        align-self: center;
+        order: 2;
+        width: 720px;
+    }
+}
+@media screen and (max-width:767px) {
+    .menu_bars{
+        display: block;
+    }
+    ul.menu1{
+        display: none;
+    }
+    ul.menu2{
+        display: none;
+    }
+    nav{
+        margin: 10px;
+        justify-content: space-between;
+    }
+    main{
+        flex-direction: column;
+    }
+    picture.pic1{
+        align-self: center;
+        order: 1;
+    }
+    .text_block{
+        align-self: center;
+        order: 2;
+        width: 343px;
+    }
+    .textup{
+        font-size: 24px;
+        line-height: 120%;
+        font-weight: 700;
+    }
+    .textname{
+        font-size: 32px;
+        line-height: 120%;
+        font-weight: 700;
+    }
+    .head{
+        color: #6F1DF4;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .diffenition{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+    }
+    .maintext{
+        font-size: 12px;
+    }
+    .numbers{
+        display: grid;
+        width: 343px;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    header{
+        width: 100%;
+    }
+
+}
+@media (prefers-color-scheme: dark) {
+    body{
+        background: black;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body{
+        background: white;
+        color: black;
+    }
+}

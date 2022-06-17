@@ -1,0 +1,80 @@
+header{
+    background-image: url(images/note1.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 754px;
+    background-size: cover;
+    background-position: center;
+   
+}
+body{
+    margin: 0px;
+    font-family: Inter;
+}
+.text_head{
+    font-weight: 800;
+    font-size: 64px;
+}
+.content_head{
+    margin-left: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    gap: 50px;
+}
+.input_block{
+    width: 500px;
+    height: 73px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+input.input_text{
+    width: 178px;
+    height: 36px;
+}
+button.input_button{
+    width: 136px;
+    height: 61px;
+    border-radius: 10px;
+    background-color:  #F84646;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.main_head{
+    font-size: 36px;
+    font-weight: 800;
+}
+.main_text{
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.advantages{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    row-gap: 100px;
+}
+.color_block{
+    width: 280px;
+}
+@media screen and (max-width:1470px) and (min-width:768px){
+    .advantages{
+        grid-template-columns: repeat(2,300px);
+    }
+}
+@media screen and (max-width:767px) {
+    .advantages{
+        grid-template-columns: repeat(1,300px);
+    }
+}
