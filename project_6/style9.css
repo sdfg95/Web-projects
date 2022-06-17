@@ -1,0 +1,20 @@
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.my_nav{
+    background-color: grey !important;
+}
+.form-control{
+    height: 20px;
+}
+.my_carousel .carousel-item{
+    max-height: 700px;
+}
+main{
+    background-color: grey;
+}
